@@ -52,13 +52,25 @@
                     <form class="modal-form" action="">
                         <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
                         <ul>
-                            <li><input class="form-text" type="text" id="name" name="name" placeholder="">
-                                <label class="form-name" for="name">Имя</label></li>
-                            <li><label class="form-name" for="tel">Телефон</label>
-                                <input class="form-text" type="tel" id="tel" name="tel"></li>
-                            <li><label class="form-name" for="email">Почта</label>
-                                <input class="form-text" type="email" id="email" name="email"></li>
-                            <li><label class="form-name" for="comments">Комментарий</label>
+                            <li class="form-list"><label class="form-name" for="name">Имя</label>
+                                <div class="form-box">
+                                <input class="form-text" type="text" id="name" name="name" placeholder=" ">
+                                <svg class="form-svg">
+                                    <use href="./images/symbol-defs.svg#icon-person-black-18dp-1-1"></use>
+                                </svg></div></li>
+                            <li class="form-list"><label class="form-name" for="tel">Телефон</label>
+                                <div class="form-box">
+                                <input class="form-text" type="tel" id="tel" name="tel" placeholder=" ">
+                            <svg class="form-svg">
+                                <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1-1"></use>
+                            </svg></div></li>
+                            <li class="form-list"><label class="form-name" for="email">Почта</label>
+                                <div class="form-box">
+                                <input class="form-text" type="email" id="email" name="email" placeholder=" ">
+                            <svg class="form-svg">
+                                <use href="./images/symbol-defs.svg#icon-email-black-18dp-1-1"></use>
+                            </svg></div></li>
+                            <li class="form-list"><label class="form-name" for="comments">Комментарий</label>
                             <textarea class="text-area" name="comments" id="comments" cols="30" placeholder="Введите текст" ></textarea></li>
                         </ul>
                        <div class="accord">
