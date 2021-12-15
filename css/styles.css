@@ -422,7 +422,7 @@ color: rgba(117, 117, 117, 0.5);
    margin-right: 8px;
 }
 .checkbox:checked + .icon-agree {
-   background-image: url(../images/iconcheck.svg);
+   background-image: url(../images/symbol-defs.svg#icon-icon-check-2);
    background-size: contain;
    background-color: var(--accent-color);
    border-color: transparent;
