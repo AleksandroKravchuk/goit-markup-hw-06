@@ -424,7 +424,7 @@ color: rgba(117, 117, 117, 0.5);
 .checkbox:checked + .icon-agree {
    background-image: url(../images/iconcheck.svg);
    background-size: contain;
-   background-color: orange;
+   background-color: var(--accent-color);
    border-color: transparent;
    background-origin: border-box;
 }
