@@ -191,10 +191,17 @@ border-radius: 2px;
    align-items: center;
    transition: color var(--transition-time) var(--function-transition), fill var(--transition-time) var(--function-transition);
 }
+.contakts-item {
+   margin-right:  10px;
+   fill:  var(--text-color);
+}
 .contakts-nave:hover,
 .contakts-nave:focus {
    color: var(--accent-color);
-   fill: var(--accent-color);
+}
+.contakts-nave:hover .contakts-item,
+.contakts-nave:focus .contakts-item{
+   fill : var(--accent-color);
 }
 .list-contakts {
    display: flex;
@@ -202,10 +209,6 @@ border-radius: 2px;
 }
 .list-contakts .item +.item {
    margin-left: 50px;
-}
-.contakts-item {
-   margin-right:  10px;
-   color: var(--text-color);
 }
 
 /* Main block*/
