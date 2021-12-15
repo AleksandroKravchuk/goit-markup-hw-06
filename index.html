@@ -54,19 +54,19 @@
                         <ul>
                             <li class="form-list"><label class="form-name" for="name">Имя</label>
                                 <div class="form-box">
-                                <input class="form-text" type="text" id="name" name="name" placeholder=" ">
+                                <input class="form-text" type="text" id="name" name="name" >
                                 <svg class="form-svg">
                                     <use href="./images/symbol-defs.svg#icon-person-black-18dp-1-1"></use>
                                 </svg></div></li>
                             <li class="form-list"><label class="form-name" for="tel">Телефон</label>
                                 <div class="form-box">
-                                <input class="form-text" type="tel" id="tel" name="tel" placeholder=" ">
+                                <input class="form-text" type="tel" id="tel" name="tel">
                             <svg class="form-svg">
                                 <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1-1"></use>
                             </svg></div></li>
                             <li class="form-list"><label class="form-name" for="email">Почта</label>
                                 <div class="form-box">
-                                <input class="form-text" type="email" id="email" name="email" placeholder=" ">
+                                <input class="form-text" type="email" id="email" name="email">
                             <svg class="form-svg">
                                 <use href="./images/symbol-defs.svg#icon-email-black-18dp-1-1"></use>
                             </svg></div></li>
@@ -74,8 +74,10 @@
                             <textarea class="text-area" name="comments" id="comments" cols="30" placeholder="Введите текст" ></textarea></li>
                         </ul>
                        <div class="accord">
-                            <input type="checkbox">
-                            <label class="form-accord" for="comments">Соглашаюсь с рассылкой и принимаю <span>Условия договора</span></label>
+                            <label class="form-accord">
+                                 <input class="checkbox" type="checkbox" name="agree" value="agree">
+                                 <span class="icon-agree"></span>Соглашаюсь с рассылкой и принимаю &nbsp;
+                                <a class="link-agree" href="">Условия договора</a></label>
                         <button type="submit" class="button-form">Отправить</button></div>
                     </form>
                    <button class="button-close" data-modal-close>
