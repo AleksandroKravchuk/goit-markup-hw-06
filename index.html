@@ -49,26 +49,30 @@
             <!-- Model window -->
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-
-                    <form class="modal-form" action="">
+                    <button class="button-close" data-modal-close>
+                       <svg class="symbol-close" width="18" height="18">
+                         <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1-5-1"> </use>
+                       </svg>
+                   </button> 
+                    <form class="modal-form">
                         <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
                         <ul class="form-block">
                             <li class="form-list"><label class="form-name" for="name">Имя</label>
                                 <div class="form-box">
                                 <input class="form-text" type="text" id="name" name="name" >
-                                <svg class="form-svg">
+                                <svg class="form-svg" width="18" height="18">
                                     <use href="./images/symbol-defs.svg#icon-person-black-18dp-1-1"></use>
                                 </svg></div></li>
                             <li class="form-list"><label class="form-name" for="tel">Телефон</label>
                                 <div class="form-box">
                                 <input class="form-text" type="tel" id="tel" name="tel">
-                            <svg class="form-svg">
+                            <svg class="form-svg" width="18" height="18">
                                 <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1-1"></use>
                             </svg></div></li>
                             <li class="form-list"><label class="form-name" for="email">Почта</label>
                                 <div class="form-box">
-                                <input class="form-text" type="email" id="email" name="email">
-                            <svg class="form-svg">
+                                <input class="form-text" type="email" id="email" name="Email">
+                            <svg class="form-svg" width="18" height="18">
                                 <use href="./images/symbol-defs.svg#icon-email-black-18dp-1-1"></use>
                             </svg></div></li>
                             <li class="form-list"><label class="form-name" for="comments">Комментарий</label>
@@ -81,11 +85,7 @@
                                 <a class="link-agree" href="">Условия договора</a></label>
                         <button type="submit" class="button-form">Отправить</button></div>
                     </form>
-                   <button class="button-close" data-modal-close>
-                       <svg class="symbol-close" width="18" height="18">
-                         <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1-5-1"> </use>
-                       </svg>
-                   </button> 
+                  
                 </div>
             </div>
             </div> 
@@ -336,7 +336,7 @@
                 <div class="subscription" >
                     <p class="join">Подпишитесь на рассылку</p>
                          <form class="form-field">
-                             <input class="subscription-window" type="text" name="email"  id="email" autocomplete="on" placeholder="E-mail">
+                             <input class="subscription-window" type="text" name="email"  autocomplete="on" placeholder="E-mail">
                              <button class="subscription-button" type="submit"> Подписаться
                                 <svg class="air" width="24" height="24">
                                     <use href="./images/symbol-defs.svg#icon-icon-send-1"></use>

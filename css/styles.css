@@ -306,7 +306,7 @@ transform: scale(0.9) translate(-50%, -50%);
 .form-list:not(:last-child) {
    margin-bottom: 10px;
 }
-.form-list:last-child {
+.form-block {
    margin-bottom: 20px;
 }
 .form-box {
@@ -341,7 +341,6 @@ transform: scale(0.9) translate(-50%, -50%);
    top: 50%;
    left: 15px;
    transform: translateY(-50%);
-   width: 12px;
    transition: fill var(--transition-time) var(--function-transition);
    fill: var(--main-text-color);
 }
@@ -432,6 +431,12 @@ color: rgba(117, 117, 117, 0.5);
    background-position: center;
    background-origin: border-box;
 }
+.checkbox:focus + .icon-agree {
+   border-color: var(--accent-color);
+}
+
+
+
 .button-close {
    position: absolute;
    top: 8px;
